@@ -50,6 +50,7 @@ public class Main {
                         if (sinhvien.getMsv() == msvXoa) {
                             dssv.remove(sinhvien);
                             flag = 1;
+                            break;
                         }
                     }
                     if (flag == 0) {
